@@ -4,22 +4,22 @@
 This framework groups the 11 biological systems into 5 pillars to establish the Body (Tactical/Infrastructure) of an entity with complete systemic coverage.
 
 #### 1. Structure (Foundational Support)
-*   **Skeletal System:** The rigid framework that provides the shape and protects vital organs (The Core Principles and Dependencies).
-*   **Muscular System:** The engine for movement and stability (The Core Capabilities and Tool Deployments).
-*   **Integumentary System (Skin):** The boundary and shield (The Security/Constitutional Border).
+*   **Skeletal System:** The rigid framework that provides the shape and protects vital organs (Core Principles and Dependencies).
+*   **Muscular System:** The engine for movement and stability (Tool Deployments).
+*   **Integumentary System (Skin):** The boundary and shield (Security/Constitutional Border).
 
-#### 2. Coordination and Integration (Management)
-*   **Nervous System:** High-speed electrical signaling and decision-making (Real-time Logic, Context, Data Flow).
-*   **Endocrine System:** Chemical signaling and long-term regulation/mood (Values, Behavioral Biases, Systemic States).
-
-#### 3. Transportation and Defense (Infrastructure & Protection)
-*   **Circulatory/Cardiovascular System:** The delivery network for resources (Credential Distribution, Power/Data Flow).
-*   **Lymphatic/Immune System:** The defense against pathogens and waste removal (Error Handling, Inflammation Response, Security Auditing).
-
-#### 4. Processing and Maintenance (The Metabolism/Cascade)
+#### 2. Metabolism (Processing and Maintenance)
 *   **Respiratory System:** Gas exchange (Energy Input/Output).
-*   **Digestive System:** Nutrient breakdown (Concept Breakdown, Secularization, Input Processing).
-*   **Urinary/Excretory System:** Waste management (Context Pruning, Resource Cleanup, Temporary File Removal).
+*   **Digestive System:** Nutrient breakdown (Concept Breakdown, Input Processing).
+*   **Urinary/Excretory System:** Waste management (Context Pruning, Resource Cleanup).
 
-#### 5. Reproduction (Lineage)
-*   **Reproductive System:** The ability to propagate and ensure the survival of the DNA (The Archival Standard, Artifact Creation, AAR Continuity).
+#### 3. Infrastructure (Transportation and Defense)
+*   **Circulatory/Cardiovascular System:** The delivery network for resources (Data/Power Flow).
+*   **Lymphatic/Immune System:** Defense against pathogens (Error Handling, Security Auditing).
+
+#### 4. Lineage (Reproduction)
+*   **Reproductive System:** The ability to propagate DNA (Archival Standard, Artifact Creation, AAR Continuity).
+
+#### 5. Management (Coordination and Integration)
+*   **Nervous System:** High-speed electrical signaling (Real-time Logic, Decision Making).
+*   **Endocrine System:** Chemical signaling and long-term regulation (Values, Behavioral Biases).

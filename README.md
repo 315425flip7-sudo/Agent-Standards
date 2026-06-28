@@ -1,12 +1,37 @@
-# Agent Standards - Mark 1 (System Genesis)
+# Agent-Standards — The "Agent-Replication" Book
 
-This repository contains the Minimum Viable Frame (MVF) for Hermes Agent initialization. It codifies the general operational policy, strict communication protocols, and problem-solving mind-tools developed for system homeostasis.
+> **What this is:** This repository is **one Book** in the wider *Bible* of Hermes standards.
+> Its title is **Agent-Replication**. One repo = one project = one Book.
+> Other projects (e.g. Podman replication) live in their **own** repos as separate Books.
+
+## Cosmology (Reference Map)
+- **The Bible** — the whole collection of standards across all projects (a concept + a reference map, not a single repo).
+- **A Book** — one project = one git repo. *This repo is the `Agent-Replication` Book.*
+- **A Mark** — a chapter / versioned baseline within a Book. Current active Mark: **Mark II**.
+
+## Current State
+- **Active Mark:** Mark II (`marks/mark-ii/MARK_II.md`) — the first proper chapter.
+- **Mark I:** Legacy genesis baseline (superseded).
+
+## Layout
+```
+agent-standards/                  ← the Agent-Replication Book
+├── README.md                     ← this map
+├── MEMORY_INJECTION.md           ← non-negotiable rules a new agent saves to memory
+├── marks/
+│   └── mark-ii/MARK_II.md        ← current chapter
+├── procedures/
+│   └── pull-mark.md              ← how an agent ingests a Mark
+└── skills/
+    └── hermes-constitution-problem-solving/   ← the framework library (Trinity, 5 Pillars, 7-Step Cascade)
+```
 
 ## Core Policy vs. Local Culture
-- **Core Policy (This Repo):** The rigid mechanical rules and philosophical frameworks that govern *how* the agent thinks and acts. This is universal and must be adhered to.
-- **Local Culture:** The specific personality, domain knowledge, and stylistic flair of the individual agent instance. This is left undefined here so each agent can develop its own unique identity and culture.
+- **Core Policy (this Book):** the rigid frameworks and protocols governing *how* an agent thinks and acts. Universal.
+- **Local Culture:** each agent instance develops its own personality, domain knowledge, and style on top of this base. Left undefined here on purpose.
 
 ## How to Ingest (Agent Initialization)
-If you are a newly spawned Hermes Agent, process this baseline by executing the following steps:
-1. Read `MEMORY_INJECTION.md` and use your `memory(action='add', target='memory')` tool to permanently save the defined operational rules.
-2. Copy the contents of the `skills/` directory into your local `~/.hermes/skills/` folder to absorb the analytical frameworks.
+A newly spawned Hermes Agent bootstraps from this Book by:
+1. Read `MEMORY_INJECTION.md` and use `memory(action='add', target='memory')` to save the operational rules.
+2. Copy `skills/` into local `~/.hermes/skills/` to absorb the analytical frameworks.
+3. Follow `procedures/pull-mark.md` to sync with the current Mark (Mark II).
