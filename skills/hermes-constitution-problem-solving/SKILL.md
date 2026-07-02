@@ -28,11 +28,11 @@ Do not treat this root file as an operational instruction manual. Instead, use i
 *(The structured models applied to secularize a part of the Parent Framework.)*
 *   `references/framework-5-pillars.md` — The 5 Anatomical Pillars (containing 11 biological systems). A conceptual tool used to secularize and audit the **Body** of the Trinity.
 *   `references/framework-7-step-cascade.md` — The 7-Step manifestation flow (from Concept to Reality).
-*   `references/bible-standard.md` — The procedure for agents to pull from the 'Bible'.
-*   `references/podman-replication-checklist.md` — Replication checklist for Podman-based Hermes instances (Mark 1). Moved to projects/podman-replication/.
+*   `references/bible-books-marks.md` — The Bible/Books/Marks cosmology, the three-Book interlock (Agent-Replication / Podman-Replication / Hermes-Fleet), GitHub PAT access, Discord-token identity hazard, and the memory-trigger pattern. READ THIS before any standards-distribution, agent-replication, or fleet-orchestration work.
+*   `references/podman-replication-checklist.md` — Replication checklist for Podman-based Hermes instances (repo `315425flip7-sudo/podman-replication`).
 
 ### The Bible (Source of Truth)
-*   `bible/marks/mark-ii/MARK_II.md` — The current standard for Hermes Agents.
+*   Three Books, all under `315425flip7-sudo`: `Agent-Standards` (mind, Mark II) · `podman-replication` (vessel spec, Mark I) · `hermes-fleet` (factory/orchestrator, Mark I). See `references/bible-books-marks.md`.
 
 
 ### Templates
