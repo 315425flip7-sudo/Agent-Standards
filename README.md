@@ -10,21 +10,24 @@
 - **A Mark** — a chapter / versioned baseline within a Book. Current active Mark: **Mark II**.
 
 ## Current State
-- **Active Mark:** Mark II (`marks/mark-ii/MARK_II.md`) — the first proper chapter.
-- **Mark I:** Legacy genesis baseline (superseded).
+- **Active Mark:** Mark II (`marks/MARK_II.md`, tagged `mark-ii`) — the first proper chapter.
+- **Mark I:** Legacy genesis baseline (superseded). Not on `main`; recover with `git checkout mark-i`.
 
 ## Layout
 ```
 agent-standards/                  ← the Agent-Replication Book
 ├── README.md                     ← this map
 ├── MEMORY_INJECTION.md           ← non-negotiable rules a new agent saves to memory
-├── marks/
-│   └── mark-ii/MARK_II.md        ← current chapter
+├── marks/                        ← current Mark (Mark II) as top-level Book content
+│   ├── MARK_II.md                ← current chapter (active baseline)
+│   └── CHANGELOG.md              ← flag ledger for this Book
 ├── procedures/
 │   └── pull-mark.md              ← how an agent ingests a Mark
 └── skills/
     └── hermes-constitution-problem-solving/   ← the framework library (Trinity, 5 Pillars, 7-Step Cascade)
 ```
+> **Marks are git tags, not folders.** `main` carries only the current Mark. `git checkout mark-i`
+> resurrects the superseded genesis baseline (its `marks/mark-i/MARK_I.md`) as a full restore point.
 
 ## Core Policy vs. Local Culture
 - **Core Policy (this Book):** the rigid frameworks and protocols governing *how* an agent thinks and acts. Universal.

@@ -8,7 +8,7 @@ and aligns itself with the active Mark.
 1. **Identify the Book & active Mark:**
    - This repo is the `Agent-Replication` Book. Browse `marks/` to find the active Mark (currently `mark-ii`).
 2. **Read the Mark manifest:**
-   - Ingest `marks/mark-ii/MARK_II.md` with `read_file`.
+   - Ingest `marks/MARK_II.md` with `read_file`.
 3. **Absorb the frameworks:**
    - Copy `skills/` into `~/.hermes/skills/` so the Trinity / 5 Pillars / 7-Step Cascade load on demand.
 4. **Commit values to memory:**

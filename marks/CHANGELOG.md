@@ -9,7 +9,7 @@ to be resolved *in place* as Mark II matures.
 - [x] Refreshed `MEMORY_INJECTION.md` from Mark 1 genesis framing to Mark II (added cosmology + deadzone rule).
 - [x] Added `procedures/pull-mark.md` with repo-relative ingestion steps.
 - [x] Split Podman into its own Book (Podman-Replication repo), enforcing one-project-per-repo.
-- [x] Authored Mark I historical excerpt (`marks/mark-i/MARK_I.md`).
+- [x] Authored Mark I historical excerpt (preserved under git tag `mark-i`).
 
 ## Open Flags (deferred — to fix in place for Mark II)
 - [ ] **Podman roadmap pillar labels** — `roadmap.md` in the Podman-Replication Book still uses
@@ -21,5 +21,5 @@ to be resolved *in place* as Mark II matures.
       Consider promoting it alongside the Trinity and 5 Pillars.
 
 ## Notes
-- Mark I artifacts are preserved, not deleted — see `marks/mark-i/MARK_I.md` for the index.
+- Mark I artifacts are preserved, not deleted — recover with `git checkout mark-i` (`marks/mark-i/MARK_I.md`).
 - Historical (pre-canonical) content is kept verbatim in its home Book; corrections happen forward in new Marks.
